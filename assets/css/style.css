@@ -148,6 +148,7 @@ main {
     position: relative;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #33A8DB;
 }
 
 
@@ -160,4 +161,67 @@ main {
     position: absolute;
     margin-left: 350px;
     text-transform: lowercase;
+}
+
+
+/*COMEÇO DA TERCEIRA SECTION - professional-challenges*/
+
+#professional-challenges {
+    height: 729px;
+    width: 659px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#professional-challenges img {
+    height: 429px;
+}
+
+#professional-challenges h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #33A8DB;
+    font-weight: 700;
+    text-align: center;
+    line-height: 37.57px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#professional-challenges p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: #FFF;
+}
+
+
+/*COMEÇO DO FOOTER*/
+
+footer {
+    border-top: 1px solid #33A8DB;
+    height: 170px;
+    background-color: #000;
+    box-shadow: inset 0 -59px 59px #33a8db1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+footer p>a {
+    color: #33A8DB;
 }
